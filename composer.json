@@ -16,13 +16,13 @@
     ],
     "repositories": [
         {
-            "type": "git",
-            "url": "https://github.com/mssimi/WidopHttpAdapterBundle.git"
+            "type": "vcs",
+            "url": "https://github.com/mssimi/WidopHttpAdapterBundle"
         }
     ],
     "require": {
         "php": ">=5.5",
-        "widop/http-adapter": "dev-master#1.3.0"
+        "petrepatrasc/http-adapter-bundle": "dev-symfony3"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
